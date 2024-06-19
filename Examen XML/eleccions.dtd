@@ -1,0 +1,14 @@
+<!ELEMENT eleccions (partit+)>
+<!ATTLIST eleccions any CDATA  #REQUIRED >
+<!ELEMENT partit (nom_partit, electors, congrés, senadors, candidat+)>
+<!ELEMENT nom_partit (#PCDATA)>
+<!ELEMENT estats (estat+)>
+<!ELEMENT estat (#PCDATA)>
+<!ELEMENT electors (#PCDATA)>
+<!ELEMENT congrés (#PCDATA)>
+<!ELEMENT senadors (#PCDATA)>
+<!ELEMENT candidat (nom, edat, (primaries|president))>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT edat (#PCDATA)>
+<!ELEMENT primaries EMPTY>
+<!ELEMENT president EMPTY>

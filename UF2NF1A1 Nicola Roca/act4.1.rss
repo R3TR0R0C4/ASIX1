@@ -1,0 +1,14 @@
+<rss version="2.0">
+
+    <channel>
+        <title>Your Channel Title</title>
+        <link>https://nroca.000webhostapp.com</link>
+        <description>Your channel description goes here.</description>
+        <image>
+          <url>https://nroca.000webhostapp.com/UF2A1/dedsec.ico</url>
+          <title>imatgeCanal</title>
+          <link>https://nroca.000webhostapp.com/UF2A1/dedsec.ico</link>
+        </image>
+    </channel>
+
+</rss>

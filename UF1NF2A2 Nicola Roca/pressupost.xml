@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client>
+  <presupost>
+    <placaBase>
+      <model>B550 GAMING GEN3</model>
+      <marca>MSI</marca>
+      <preu>99,99€</preu>
+      <socket>AM4</socket>
+      <factorForma>ATX</factorForma>
+    </placaBase>
+    <processador>
+      <model>AMD</model>
+      <marca>Ryzen 5 5600</marca>
+      <preu>128,99€</preu>
+      <socket>AM4</socket>
+      <nuclis>6</nuclis>  
+      <velocitat>3.5 GHz</velocitat>
+      <TDP>65</TDP>
+    </processador>
+    <discDur>
+      <model>970 Evo Plus</model>
+      <marca>Samsung</marca>
+      <preu>49,99€</preu>
+      <capacitat>1TB</capacitat>
+      <tipus>M.2 PCIe3.0</tipus>
+      <cache>1024MB</cache>
+    </discDur>
+    <tSo>
+      <model>Sound Blaster Audigy Rx</model>
+      <marca>Creative Labs</marca>
+      <preu>59,99€</preu>
+      <canals>8</canals>
+      <connexió>PCIe 3.0 x1</connexió>
+    </tSo>
+  </presupost>
+  <presupost>
+<placaBase>
+    <model>PRO B760-P WIFI </model>
+    <marca>MSI</marca>
+    <preu>159,99€</preu>
+    <socket>LGA1700</socket>
+    <factorForma>ATX</factorForma>
+  </placaBase>
+  <processador>
+    <model>i5-12400F</model>
+    <marca>Intel</marca>
+    <preu>146,73€</preu>
+    <socket>LGA1700</socket>
+    <nuclis>6</nuclis>  
+    <velocitat>3.5 GHz</velocitat>
+    <TDP>65</TDP>
+  </processador>
+  <discDur>
+    <model>P3 Plus</model>
+    <marca>Crucial</marca>
+    <preu>54,99€</preu>
+    <capacitat>1TB</capacitat>
+    <tipus>M2 PCIe 4.0</tipus>
+    <cache>1024MB</cache>
+  </discDur>
+  <tSo>
+    <model>Asus</model>
+    <marca>Xonar SE</marca>
+    <preu>39,99€</preu>
+    <canals>6</canals>
+    <connexió>PCIe 3.0 X1</connexió>
+  </tSo>
+</presupost>
+</client>

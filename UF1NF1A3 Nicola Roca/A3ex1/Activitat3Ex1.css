@@ -1,0 +1,15 @@
+ul.llista-de-receptes {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.llista-de-receptes li {
+    list-style-type: none;
+    background: #fff url("image1.png") 0 0.4em no-repeat;
+    padding-left: 10px;
+}
+
+ul.llista-de-receptes li li {
+    list-style-type: disc;
+    background: #fff;
+}

@@ -1,0 +1,94 @@
+/** {
+    border-style: dotted;
+    border-color: red;
+}*/
+
+body {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+/*Propietats del div pel logo TV3*/
+.logoTV3{
+    background-color: #7f7f7f;
+    display: flex;
+    justify-content: center;
+
+}
+/*Propietats de la imatge logo TV3 dintre del div anterior*/
+.logoTV3 img {
+    width: 100px; /* Mida Imatge horitzontal */
+    height: auto; /* Mida Imatge Vertical (manté el aspect ratio) */
+  }
+
+/*Menú*/
+.barraMenu {
+    background-color: #7f7f7f;
+    text-align: center;
+}
+/*Elements menu principal*/
+.llistaMenuPrincipal{
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+/*Titol one piece*/
+.titul {
+    font-family: serif, sans-serif;
+    color: #006696;
+}
+
+.subtitul {
+    font-family: serif, sans-serif;
+    font-size: larger;
+}
+
+.dataIcons {
+    display: flex;
+}
+.dataIcons img {
+    height: 30px;
+    width: auto;
+}
+
+.one-piece {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.llistapersonatges {
+    list-style-type: circle;
+}
+
+.linkfinal {
+    color: rgb(255, 195, 84);
+
+}
+
+.logoCCMA {
+    background-color: black;
+}
+/*Estils llistat nom sagues*/
+.ulLlistatArcs {
+    color: #006696;
+    font-weight: bolder;
+
+    list-style: none;
+    list-style: url(../img/icono-cine.png);
+}
+
+/*Estils llistat nom arcs*/
+.liLlistatArcs {
+    color: black;
+    font-weight: normal;
+    list-style: decimal;
+}
+
+.imatgePersonatges {
+    width: 70px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

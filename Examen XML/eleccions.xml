@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE eleccions SYSTEM "eleccions.dtd">-->
+<!DOCTYPE eleccions SYSTEM "eleccions.dtd">
+<eleccions any="2024">
+	<partit>
+		<nom_partit>Republicà</nom_partit>
+		<electors>0</electors>
+		<congrés>0</congrés>
+		<senadors>0</senadors>
+		<candidat>
+			<nom>Donald Trump</nom>
+			<edat>78</edat>
+			<primaries/>
+		</candidat>
+	</partit>
+	<partit>
+		<nom_partit>Republicà</nom_partit>
+		<estats>
+		  <estat>New_Hampshire</estat>
+		  <estat>Vermont</estat>
+		</estats>
+		<electors>7</electors>
+		<congrés>0</congrés>
+		<senat>0</senat>
+		<candidat>
+			<edat>82</edat>
+			<nom>Joe Biden</nom>
+			<president/>
+		</candidat>
+	</partit>
+</eleccions>

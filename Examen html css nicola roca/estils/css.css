@@ -1,0 +1,99 @@
+body {
+    background-color: #ffda9e; /*Afegim el color de fons de les pàgines*/
+}
+
+.titul { /*estils pel text titul*/
+    margin-left: 10%; /*Afegim un marge a l'esquerra del titul de fruits secs*/
+}
+
+.header { /*header*/
+    margin-left: 10%; /*Posem un marge a l'esquerra del header menú*/
+    margin-right: 10%; /*Posem un marge a la dreta del header menú*/
+    background-color: #666363; /*Posem un color de fons al header menú*/
+    font-size: larger; /*canviem la mida de la lletra del header menú*/
+}
+
+.barramenu { /*barra del menú*/
+    padding-left: 5px; /*afegim una mica de padding a la dreta dels items del menu*/
+}
+
+a:link { /*links no visitats*/
+    color: #ce9221; /*canviem el color dels links de les pàgines*/
+    text-decoration: none; /*treiem el subratllat dels links*/
+}
+
+a:visited { /*links visitats*/
+    color: #df9919 /*canviem el color dels links visitats*/
+}
+
+.menuItem { /*items del menú*/
+    display: inline-block; /*posem els items del menu en horitzontal i treiem els punts*/
+    padding-left: 1%; /*afegim padding a l'esquerra*/
+    padding-top: 1%; /*afegim padding ala dreta*/
+    padding-bottom: 1%; /*afegim padding a baix*/
+}
+
+.main { /*cos principal*/
+    padding-left: 10%; /*afegim un padding a la dreta de tot el contingut principal de la pagina*/
+    padding-right: 10%; /*l'afegim també per la dreta*/
+    text-align: justify; /*justifiquem el text*/
+    text-justify: inter-word; /*fém que el text quedi "quadrat amb el marge"*/
+    justify-content: center; /*centrem continguts*/
+    display: inline-block;
+}
+
+.subtitul { /*pels subtituls h2*/
+    text-align: center;/* justifiquem al mig*/
+}
+
+.imatge { /*general d'imatges*/
+    display: block; /*posem l'imatge com block*/
+    margin-left: auto; /*per centrar-la*/
+    margin-right: auto;/*per centrar-la*/
+}
+
+.taula { /*taula d'index.html*/
+    margin-left: auto;/*per centrar-la*/
+    margin-right: auto;/*per centrar-la*/
+    width: 45%;/*per donar-li una amplada*/
+    border-style: solid;/*per canviar el tipus de borde*/
+    border-color: lightgray;/*per canviar el color de borde*/
+}
+
+.markbox { /*per les caixes de tipus d'ametlles del formulari*/
+    display: flex; /*posem un al costat de l'altre*/
+}
+
+#produccio { /*id pel subtitul de producció de tipus.html*/
+    text-align: center;
+}
+
+.tipusametllesp { /*nom de les ametlles*/
+    color: blue; /*canviem el color a blau*/
+}
+
+.taulaproduccio { /*taula de produccións de tipus.html*/
+    margin-left: auto;/*per centrar-la*/
+    margin-right: auto;/*per centrar-la*/
+    width: 45%;/*per posar una mida determinada*/
+    border-collapse: collapse; /*col·lapsem els borders*/
+    border: solid 1px black; /*establim les propietats dels bordes*/
+}
+
+.taulatop { /*caselles de la taula part de tituls*/
+    background-color: #8880fe; /*color fons*/
+    font-weight: bold; /*text en negreta*/
+}
+
+.taulablau { /*caselles amb fons blau*/
+    background-color: #7cd1eb;/*color fons*/
+}
+
+.taulablanc {/*caselles amb fons blanc*/
+    background-color: white;/*color fons*/
+}
+
+.taulabottom {/*caselles de baix*/
+    background-color: #6fff84;/*color fons*/
+    text-align: center;/*per centrar el text*/
+}

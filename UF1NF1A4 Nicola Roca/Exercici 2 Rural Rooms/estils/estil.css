@@ -1,0 +1,209 @@
+/*Generals Inici*/
+body {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    /*Color links no visitats*/
+    color: white;
+    /* Color del link */
+}
+
+a:visited {
+    /*Color links visitats*/
+    color: rgb(148, 148, 148);
+}
+
+.header {
+    /*Estils Header*/
+    display: flex;
+    /* Posa la ul al costat de la img */
+    align-items: center;
+    /* Alinea la imatge i la ul verticalment dintre del div */
+    justify-content: space-between;
+    /* Afegeix un espai horitzontal */
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: grey;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.header img {
+    /*Paddings logo RR Menu Header*/
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    /*Estils menú header*/
+    list-style: none;
+    /* Treu els "bullets" de cada item */
+    display: flex;
+    /* Posa la llista en horitzontal */
+    padding: 0;
+    /* Treu els paddings per defecte */
+    margin: 0;
+    /* Treu els margin per defecte */
+
+}
+
+.menu li {
+    /*Separacións del menú header*/
+    margin-right: 90px;
+}
+
+.footer {
+    /*estils del footer*/
+    background-color: green;
+    padding-left: 100px;
+}
+
+/*Generals Fi*/
+
+/*index.html Inici*/
+.imatgeFondo {
+    width: 100%;
+    height: auto;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.RR-overlay {
+    /*text Rural Rooms sobre imatge*/
+    position: absolute;
+    /* Posició relativa al container */
+    top: 20%;
+    /* Posició relativa vertical */
+    left: 3%;
+    /* Posició relativa per l'esquerra */
+    color: green;
+    padding: 10px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.Descanso-overlay {
+    /*text Descanso en familia sobre imatge*/
+    position: absolute;
+    /* Position the text relative to the container */
+    top: 30%;
+    /* Posició relativa vertical */
+    left: 3%;
+    /* Posició relativa per l'esquerra */
+    color: green;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/*index.html Fí*/
+
+/*precios.html Inici*/
+.TitulPreus {
+    /*Estils titul de preus*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    background-color: #ebedee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.taulaPreusCarac {
+    /*Estils taula de preus*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.taulaPreusCarac {
+    /*ajuntar totes les bores de la taula*/
+    border-collapse: collapse;
+}
+
+.TaulaPreus {
+    /*Estils div per la taula de preus*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebedee;
+    padding-bottom: 50px;
+}
+
+.especial {
+    /*estils per Tipus habitacio, personas, etc...*/
+    width: 200px;
+    height: 60px;
+    background-color: #536374;
+    color: white;
+    font-family: cursive;
+}
+
+.habitacions {
+    /*Estils caselles tipus d'habitacions*/
+    height: 50px;
+    font-weight: bold;
+    width: 250px;
+}
+
+.caracteristicas {
+    /*Estils caselles caracteristiques d'habitacions*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.preu {
+    /*Estils caselles preu d'habitacions*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+/*precios.html Fí*/
+
+/*reserva.html Inici*/
+.bodyReserva {
+    margin: 0 auto;
+    background-color: #ebedee;
+    width: 100%;
+    align-items: center;
+    /* Alinea la imatge i la ul verticalment dintre del div */
+    justify-content: space-between;
+    /* Afegeix un espai horitzontal */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulReserva {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taulaNouForm {
+    margin: 0 auto;
+}
+
+.taulaNouForm td {
+    padding: 10px;
+}
+
+.taulaNouForm td td table {
+
+    border: 1px solid #ebedee;
+}
+
+/*reserva.html Fí*/

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estils/estil.css">
+    <title>Reserves</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/RRLogo.png"  alt="Logo RuralRooms">
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="reserva.html">Reservas</a></li>
+            </ul>
+        </header>
+    </div>
+
+
+    <div class="bodyReserva">
+        <h1 class="titulReserva">Reserve su habitación en Rural Rooms</h1>
+        <div class="nouForm">
+            <form>
+                <table class="taulaNouForm">
+                    <tr>
+                        <td>
+                            <p>Com ens adreçem a vosté?</p>
+                        </td>
+                        <td>
+                            <input type="radio" id="tiposr" name="fav_language" value="HTML">
+                            <label for="tiposr">Sr</label>
+                            <input type="radio" id="tiposra" name="fav_language" value="HTML">
+                            <label for="tiposra">Sra</label>
+                            <input type="radio" id="tiposrta" name="fav_language" value="HTML">
+                            <label for="tiposrta">Srta</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nom">Nom: </label>
+                        </td>
+                        <td>
+                            <input id="nom" name="nom" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Correu electrònic: </label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="confEmail">Confirmeu el correu electrònic: </label>
+                        </td>
+                        <td>
+                            <input type="Email" id="confEmail" name="confEmail" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="contra">Contrasenya:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="contra" name="contra">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="habTipus">Sel·leccioneu una habitació:</label>
+                        </td>
+                        <td>
+                            <select id="habTipus" name="habTipus">
+                                <option value="indivi">Habitació Individual</option>
+                                <option value="doble">Habitació doble</option>
+                                <option value="dobleSuperior">Habitació doble superior</option>
+                                <option value="triple">Habitació triple</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nPersones">Nombre de persones:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="nPersones" name="nPersones" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="entrada">Data d'entrada:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="entrada" name="entrada" max="2023-11-06" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sortida">Data de sortida:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="sortida" name="sortida" min="2026-12-31" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="peticions">Peticions especials (Aquestes peticións no es poden garantir,<br>
+                                però es farà tot elpossible per realitzar-les):</label>
+
+                        </td>
+                        <td>
+                            <input type="text" id="peticions" name="peticions">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="margin: 0px;">Desitjeu reservar una plaça de parking per 8€/nit <br>(parking
+                                exterior gratuït disponible)</p>
+                        </td>
+                        <td>
+                            <input type="radio" id="parking" name="parkingReserva" value="parking">
+                            <label for="parking">Vull reservar-lo</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Harribada">Sel·leccioneu un temps d'arribada estimat:</label>
+                        </td>
+                        <td>
+                            <input type="time" id="Harribada" name="Harribada"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="margin: 0px;">Desitjeu afegir esmorzar (5€/dia d'estància)</p>
+                        </td>
+                        <td>
+                            <input type="radio" id="esmorzar" name="esmorzarReserva" value="esmorzar">
+                            <label for="esmorzar">Vull reservar-lo</label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+
+        <!--Inici Footer-->
+        <div class="footer">
+            <p>Actividad ralizada por <strong>Nicola Roca Mühlemann</strong>
+            <p>Fotografías de la portada <a href="https://unsplash.com/">Unsplash</a></p>
+            <img src="img/creative-commons.png"  alt="Logo Creative commons">
+        </div>
+        <!--Fi Footer-->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+<nomllibre>
+  <nom>El Hobbit</nom>
+  <escriptor>John Ronald reuel Tolkien</escriptor>
+  <publicaciocatala>2010</publicaciocatala>
+  <editorial>Edicions de la magrana</editorial>
+  <colecio>l'Esparver</colecio>
+</nomllibre>
+<nomllibre>
+  <nom>El Senyor dels anells, la germandat de l'anell</nom>
+  <escriptor>John Ronald reuel Tolkien</escriptor>
+  <publicaciocatala>2002</publicaciocatala>
+  <editorial>Vicens Vives</editorial>
+  <colecio>N/A</colecio>
+</nomllibre>
+<nomllibre>
+  <nom>Jo, Robot</nom>
+  <escriptor>Isaac Asimov</escriptor>
+  <publicaciocatala>2001</publicaciocatala>
+  <editorial>Edicions Proa</editorial>
+  <colecio>Proa Butxaca</colecio>
+</nomllibre>
+</biblioteca>

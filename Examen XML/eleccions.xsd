@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="eleccions" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="partit" type="partitType" maxOccurs="2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:complexType name="partitType">
+        <xs:sequence>
+            <xs:element name="nom_partit" type="xs:string"/>
+            <xs:element name="estats" type="estatsType" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="electors" type="electorsType"/>
+            <xs:element name="congrés" type="congrésType"/>
+            <xs:element name="senadors" type="senadorsType"/>
+            <xs:element name="candidat" type="candidatType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="candidatType">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="edat" type="xs:integer"/>
+            <xs:element name="primaries"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="estatsType">
+        <xs:sequence>
+            <xs:element name="estat" type="xs:string" maxOccurs="unbounded"/>
+
+        </xs:sequence>
+    </xs:complexType>
+     
+
+<!--Apliquem el màxim de 538 a electors-->
+    <xs:simpleType name="electorsType">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="538"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="electors" type="electorsType"/>
+
+<!--Apliquem el màxim de 435 a congressistes-->
+    <xs:simpleType name="congrésType">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="435"/>  
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="congrés" type="congrésType"/>
+
+<!--Apliquem el màxim de 100 a senat-->
+<xs:simpleType name="senadorsType">
+    <xs:restriction base="xs:integer">
+        <xs:maxInclusive value="100"/>  
+    </xs:restriction>
+</xs:simpleType>
+<xs:element name="senadors" type="senadorsType"/>
+
+
+
+</xs:schema>

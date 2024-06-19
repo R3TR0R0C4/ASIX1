@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lligaBBVA>
+  <jornada id="1">
+    <partit id="1">
+      <casa>R. Sociedad</casa>
+      <resCasa>2</resCasa>
+      <invitat>Getafe</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="2">
+      <casa>Valencia</casa>
+      <resCasa>1</resCasa>
+      <invitat>Málaga</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="3">
+      <casa>Osasuna</casa>
+      <resCasa>1</resCasa>
+      <invitat>Granada</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="4">
+      <casa>Sevilla</casa>
+      <resCasa>1</resCasa>
+      <invitat>Atlético</invitat>
+      <resInvitat>3</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="5">
+      <casa>Celta</casa>
+      <resCasa>2</resCasa>
+      <invitat>Espanyol</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="6">
+      <casa>Valladolid</casa>
+      <resCasa>1</resCasa>
+      <invitat>Athletic</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="7">
+      <casa>FC Barcelona</casa>
+      <resCasa>7</resCasa>
+      <invitat>Levante</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="8">
+      <casa>R. Madrid</casa>
+      <resCasa>2</resCasa>
+      <invitat>Betis</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="9">
+      <casa>Rayo</casa>
+      <resCasa>3</resCasa>
+      <invitat>Elche</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="10">
+      <casa>Almería</casa>
+      <resCasa>2</resCasa>
+      <invitat>Villareal</invitat>
+      <resInvitat>3</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+  </jornada>
+  <jornada id="2">
+    <partit id="1">
+      <casa>Getafe</casa>
+      <resCasa>2</resCasa>
+      <invitat>Almeria</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="2">
+      <casa>Elche</casa>
+      <resCasa>1</resCasa>
+      <invitat>R. Sociedad</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="3">
+      <casa>Villareal</casa>
+      <resCasa>2</resCasa>
+      <invitat>Valladolid</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="4">
+      <casa>Málaga</casa>
+      <resCasa>0</resCasa>
+      <invitat>FC Barcelona</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="5">
+      <casa>Betis</casa>
+      <resCasa>1</resCasa>
+      <invitat>Celta</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="6">
+      <casa>Athletic</casa>
+      <resCasa>2</resCasa>
+      <invitat>Osasuna</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="7">
+      <casa>Espanyol</casa>
+      <resCasa>3</resCasa>
+      <invitat>Valencia</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="8">
+      <casa>Atlético</casa>
+      <resCasa>5</resCasa>
+      <invitat>Rayo</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="9">
+      <casa>Levante</casa>
+      <resCasa>0</resCasa>
+      <invitat>Sevilla</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="10">
+      <casa>Granada</casa>
+      <resCasa>0</resCasa>
+      <invitat>R. Madrid</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+  </jornada>
+  <jornada id="3">
+    <partit id="1">
+      <casa>Rayo</casa>
+      <resCasa>1</resCasa>
+      <invitat>Levante</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="2">
+      <casa>Celta</casa>
+      <resCasa>1</resCasa>
+      <invitat>Granada</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="3">
+      <casa>Osasuna</casa>
+      <resCasa>0</resCasa>
+      <invitat>Villareal</invitat>
+      <resInvitat>3</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="4">
+      <casa>Espanyol</casa>
+      <resCasa>0</resCasa>
+      <invitat>Betis</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="5">
+      <casa>Valencia</casa>
+      <resCasa>2</resCasa>
+      <invitat>FC Barcelona</invitat>
+      <resInvitat>3</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="6">
+      <casa>Almería</casa>
+      <resCasa>2</resCasa>
+      <invitat>Elche</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="7">
+      <casa>Valladolid</casa>
+      <resCasa>1</resCasa>
+      <invitat>Getafe</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="8">
+      <casa>R. Madrid</casa>
+      <resCasa>3</resCasa>
+      <invitat>Athletic</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="9">
+      <casa>R. Sociedad</casa>
+      <resCasa>1</resCasa>
+      <invitat>Atlético</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="10">
+      <casa>Sevilla</casa>
+      <resCasa>2</resCasa>
+      <invitat>Málaga</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+  </jornada>
+  <jornada id="4">
+    <partit id="1">
+      <casa>Atlético</casa>
+      <resCasa>4</resCasa>
+      <invitat>Almería</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="2">
+      <casa>FC Barcelona</casa>
+      <resCasa>3</resCasa>
+      <invitat>Sevilla</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="3">
+      <casa>Granada</casa>
+      <resCasa>0</resCasa>
+      <invitat>Espanyol</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="4">
+      <casa>Málaga</casa>
+      <resCasa>5</resCasa>
+      <invitat>Rayo</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="5">
+      <casa>Elche</casa>
+      <resCasa>0</resCasa>
+      <invitat>Valladolid</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="6">
+      <casa>Levante</casa>
+      <resCasa>0</resCasa>
+      <invitat>R. Sociedad</invitat>
+      <resInvitat>0</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="7">
+      <casa>Villareal</casa>
+      <resCasa>2</resCasa>
+      <invitat>R. Madrid</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="8">
+      <casa>Getafe</casa>
+      <resCasa>2</resCasa>
+      <invitat>Osasuna</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="9">
+      <casa>Betis</casa>
+      <resCasa>3</resCasa>
+      <invitat>Valencia</invitat>
+      <resInvitat>1</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+    <partit id="10">
+      <casa>Athletic</casa>
+      <resCasa>3</resCasa>
+      <invitat>Celta</invitat>
+      <resInvitat>2</resInvitat>
+      <estat>finalizado</estat>
+    </partit>
+  </jornada>
+</lligaBBVA>

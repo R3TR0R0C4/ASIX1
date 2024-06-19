@@ -1,0 +1,12 @@
+site_name: My Docs
+use_directory_urls: false
+theme: dracula
+
+nav:
+  - Home: index.md
+  - Passos Previs: passosPrevis.md
+  - Instalacio Servidor: instalacioServidor.md
+  - Instalacio Clients: instalacioClient.md
+  - Captura: captura.md
+  - Deploy: deploy.md
+  - Snapins: snapins.md

@@ -1,0 +1,6 @@
+<fruites>
+<fruita>poma</fruita>
+<fruita>fresa</fruita>
+<fruita>platan</fruita>
+<fruita>melo</fruita>
+</fruites>

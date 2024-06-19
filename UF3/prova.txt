@@ -1,0 +1,7 @@
+color:roig
+mida:10cm
+pes:1kg
+marca:Lego
+
+
+

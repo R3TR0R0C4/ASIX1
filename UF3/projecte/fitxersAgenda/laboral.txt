@@ -1,0 +1,6 @@
+Pau;Montero;pmontero@gmail.com;[123123123,234234234]
+Pau;Valles;pvalles@gmail.com;[789789789]
+Victor;Sales;vsales@gmail.com;[345345345,456456456]
+Nico;Roca;nroca@iesebre.com;[123123123, 234234234]
+Nicola;Rocas;nroca2@gmail.com;[123123123]
+Nico3;Roca;nafsasf;[123123213]

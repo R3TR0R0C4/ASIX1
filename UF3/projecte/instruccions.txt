@@ -1,0 +1,12 @@
+A partir de l'agenda creada durant les classes perfeccioneu-la per tal de que:
+
+-L'aplicació comenci completament buida (sense arxius per a les agendes personal, laboral)
+-Ens permeti la creació del document en obrir la pàgina.
+-Ens permeti canviar de pàgina en qualsevol moment.
+-Ens permeti afegir usuaris (l'estructura, ha de ser: Nom; Cognoms; Correu; [llista de telèfons]). Ens ha d'avertir en cas de voler introduïr un telèfon ja existent.
+-Ens permeti llistar els usuaris d'una de les agendes.
+-Ens permeti cercar resultats a partir de nom o cognoms (us de find i càrrega de només resultats coincidents)
+-S'ha de poder fer la trucada (com ja passava en la pràctica de classe)
+BONUS:
+
+Eliminar un contacte de la llista.

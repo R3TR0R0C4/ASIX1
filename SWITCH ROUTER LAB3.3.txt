@@ -1,0 +1,79 @@
+BR1 cisco 2960:
+
+enable
+conf t
+
+hostname BR1
+no ip domain-lookup
+enable password frodo
+line vty 0 15
+password bilbo
+exit
+banner motd # Soy un servidor del Fuego Secreto, que es dueño de la llama de Anor. No puedes pasar. # 
+
+int g0/0
+description Xarxa p2p BR1-BR2
+ip address 192.168.34.17 255.255.255.252
+no shut
+int g0/1
+description Xarxa LAN
+ip address 192.168.33.129 255.255.255.192
+no shut
+
+BR2 cisco 2960:
+
+enable
+conf t
+
+hostname BR2
+no ip domain-lookup
+enable password frodo
+line vty 0 15
+password bilbo
+exit
+banner motd # Soy un servidor del Fuego Secreto, que es dueño de la llama de Anor. No puedes pasar. # 
+
+int g0/0
+description Xarxa p2p BR1-BR2
+ip address 192.168.34.18 255.255.255.252
+no shut
+int g0/1
+description Xarxa LAN
+ip address 192.168.33.193 255.255.255.224
+no shut
+
+S1 cisco 2960:
+
+enable
+conf t
+
+hostname S2
+no ip domain-lookup
+enable password frodo
+line vty 0 15
+password bilbo
+exit
+banner motd # Soy un servidor del Fuego Secreto, que es dueño de la llama de Anor. No puedes pasar. # 
+
+int vlan1
+ip address 192.168.34.130 255.255.255.192
+no shut
+
+
+S2 cisco 2960:
+
+enable
+conf t
+
+hostname S2
+no ip domain-lookup
+enable password frodo
+line vty 0 15
+password bilbo
+exit
+banner motd # Soy un servidor del Fuego Secreto, que es dueño de la llama de Anor. No puedes pasar. # 
+
+int vlan1
+ip address 192.168.34.194 255.255.255.224
+no shut
+

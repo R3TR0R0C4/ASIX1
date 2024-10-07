@@ -41,6 +41,7 @@ else:#Si està instal·lat Iniciarém el programa normalment
 
     #Execució nmap ping sweep i guardat en una variable
     print(f"{Fore.CYAN}La comanda que s'executarà és: {Fore.YELLOW}  nmap "+"-sn "+interficiesIPs[interNMAP]+f" -oG - {Fore.RESET}""\n") #Printem informació a l'usuari sobre quina comanda executarém.
+    print("nmap -sn "+interficiesIPs[interNMAP]+" -oG - | awk '/Up$/{print $2}'")
     nmapPingSweep=run(["nmap -sn "+interficiesIPs[interNMAP]+" -oG - | awk '/Up$/{print $2}'"], shell=True, capture_output=True, text=True) #Realitzem el ping sweep i sel·leccionem només les IPs amb l'awk.
     
     nmapPingSweep.stdout = nmapPingSweep.stdout.split("\n") #Utilitzem la funció split("\n") per a que les IPs passin a ser items de llista, ja a que per defecte és un sol item separat per salts de linia.
